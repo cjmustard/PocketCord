@@ -1,6 +1,6 @@
 <?php
 
-namespace zyloxdeveloper\pocketcord\discord;
+namespace cjmustard\pocketcord\discord;
 
 class CurlRequest {
 

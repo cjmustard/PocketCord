@@ -1,12 +1,12 @@
 <?php
 
-namespace zyloxdeveloper\pocketcord\listener;
+namespace cjmustard\pocketcord\listener;
 
-use zyloxdeveloper\pocketcord\webhook\WebhookAPI;
-use zyloxdeveloper\pocketcord\webhook\WebhookMessage;
+use cjmustard\pocketcord\webhook\WebhookAPI;
+use cjmustard\pocketcord\webhook\WebhookMessage;
 use pocketmine\event\Listener;
-use zyloxdeveloper\pocketcord\listener\SetupListener;
-use zyloxdeveloper\pocketcord\Loader;
+use cjmustard\pocketcord\listener\SetupListener;
+use cjmustard\pocketcord\Loader;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\event\player\PlayerChatEvent;
 use pocketmine\event\player\PlayerDeathEvent;

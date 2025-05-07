@@ -1,15 +1,15 @@
 <?php
 
-namespace zyloxdeveloper\pocketcord;
+namespace cjmustard\pocketcord;
 
-use zyloxdeveloper\pocketcord\command\PocketCordCommand;
-use zyloxdeveloper\pocketcord\database\WebhookQueries;
-use zyloxdeveloper\pocketcord\listener\EventListener;
+use cjmustard\pocketcord\command\PocketCordCommand;
+use cjmustard\pocketcord\database\WebhookQueries;
+use cjmustard\pocketcord\listener\EventListener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
-use zyloxdeveloper\pocketcord\webhook\WebhookMessage;
-use zyloxdeveloper\pocketcord\Webhook\WebhookAPI;
-use zyloxdeveloper\pocketcord\tasks\WebhookHeartbeat;
+use cjmustard\pocketcord\webhook\WebhookMessage;
+use cjmustard\pocketcord\Webhook\WebhookAPI;
+use cjmustard\pocketcord\tasks\WebhookHeartbeat;
 use SQLite3;
 
 class Loader extends PluginBase {

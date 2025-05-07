@@ -1,6 +1,6 @@
 <?php
 
-namespace zyloxdeveloper\pocketcord\lib\form;
+namespace cjmustard\pocketcord\lib\form;
 
 use pocketmine\player\Player;
 

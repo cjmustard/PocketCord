@@ -1,8 +1,8 @@
 <?php
 
-namespace zyloxdeveloper\pocketcord\database;
+namespace cjmustard\pocketcord\database;
 
-use zyloxdeveloper\pocketcord\webhook\WebhookAPI;
+use cjmustard\pocketcord\webhook\WebhookAPI;
 use SQLite3;
 
 class WebhookQueries {

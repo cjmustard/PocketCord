@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace zyloxdeveloper\pocketcord\lib\form;
+namespace cjmustard\pocketcord\lib\form;
 
 use pocketmine\form\FormValidationException;
 

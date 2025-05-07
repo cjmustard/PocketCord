@@ -1,8 +1,8 @@
 <?php
 
-namespace zyloxdeveloper\pocketcord\Listener;
+namespace cjmustard\pocketcord\Listener;
 
-use zyloxdeveloper\pocketcord\Webhook\WebhookAPI;
+use cjmustard\pocketcord\Webhook\WebhookAPI;
 use pocketmine\player\Player;
 
 class SetupListener {

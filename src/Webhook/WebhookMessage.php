@@ -1,6 +1,6 @@
 <?php
 
-namespace zyloxdeveloper\pocketcord\webhook;
+namespace cjmustard\pocketcord\webhook;
 
 class WebhookMessage {
 
