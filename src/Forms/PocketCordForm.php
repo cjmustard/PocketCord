@@ -1,9 +1,9 @@
 <?php
 
-namespace CJMustard1452\PocketCord\Forms;
+namespace zyloxdeveloper\pocketcord\forms;
 
-use CJMustard1452\PocketCord\Library\FormAPI\BaseForm;
-use CJMustard1452\PocketCord\Library\FormAPI\SimpleForm;
+use zyloxdeveloper\pocketcord\lib\form\BaseForm;
+use zyloxdeveloper\pocketcord\lib\form\SimpleForm;
 
 class PocketCordForm extends BaseForm {
 

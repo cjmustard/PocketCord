@@ -1,8 +1,6 @@
 <?php
 
-namespace CJMustard1452\PocketCord\Webhook;
-
-use CJMustard1452\PocketCord\Discord\DiscordAPI;
+namespace zyloxdeveloper\pocketcord\webhook;
 
 class WebhookMessage {
 

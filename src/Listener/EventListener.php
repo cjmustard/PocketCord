@@ -1,12 +1,12 @@
 <?php
 
-namespace CJMustard1452\PocketCord\Listener;
+namespace zyloxdeveloper\pocketcord\listener;
 
-use CJMustard1452\PocketCord\Webhook\WebhookAPI;
-use CJMustard1452\PocketCord\Webhook\WebhookMessage;
+use zyloxdeveloper\pocketcord\webhook\WebhookAPI;
+use zyloxdeveloper\pocketcord\webhook\WebhookMessage;
 use pocketmine\event\Listener;
-use CJMustard1452\PocketCord\Listener\SetupListener;
-use CJMustard1452\PocketCord\Loader;
+use zyloxdeveloper\pocketcord\listener\SetupListener;
+use zyloxdeveloper\pocketcord\Loader;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\event\player\PlayerChatEvent;
 use pocketmine\event\player\PlayerDeathEvent;
@@ -51,11 +51,12 @@ class EventListener implements Listener {
 
     public function onDeath(PlayerDeathEvent $playerDeathEvent): void {
         if($playerDeathEvent->getPlayer()->getLastDamageCause() instanceof EntityDamageByEntityEvent){
-            if(!$playerDeathEvent->getPlayer()->getLastDamageCause()->getEntity() instanceof Player) return;
+            $damager = $playerDeathEvent->getPlayer()->getLastDamageCause()->getEntity();
+            if(!$damager instanceof Player) return;
 
             $format = Loader::$config->get(WebhookMessage::FORMATS[WebhookAPI::KILL]);
             $message = str_replace('{dead_name}', $playerDeathEvent->getPlayer()->getName(), $format);
-            $message = str_replace('{killer_name}', $playerDeathEvent->getPlayer()->getLastDamageCause()->getEntity()->getName(), $message);
+            $message = str_replace('{killer_name}', $damager->getName(), $message);
 
             WebhookMessage::applyMessage(WebhookAPI::KILL, $message);
         } else {

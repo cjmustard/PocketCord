@@ -1,8 +1,8 @@
 <?php
 
-namespace CJMustard1452\PocketCord\Discord;
+namespace zyloxdeveloper\pocketcord\discord;
 
-use CJMustard1452\PocketCord\Webhook\Webhook;
+use zyloxdeveloper\pocketcord\webhook\Webhook;
 
 class DiscordAPI {
 

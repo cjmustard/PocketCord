@@ -2,12 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CJMustard1452\PocketCord\Library\FormAPI;
+namespace zyloxdeveloper\pocketcord\lib\form;
 
 use pocketmine\form\Form as IForm;
 use pocketmine\player\Player;
-
-## https://github.com/jojoe77777/FormAPI
 
 abstract class Form implements IForm{
 

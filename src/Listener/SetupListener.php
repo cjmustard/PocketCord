@@ -1,10 +1,9 @@
 <?php
 
-namespace CJMustard1452\PocketCord\Listener;
+namespace zyloxdeveloper\pocketcord\Listener;
 
-use CJMustard1452\PocketCord\Webhook\WebhookAPI;
+use zyloxdeveloper\pocketcord\Webhook\WebhookAPI;
 use pocketmine\player\Player;
-use SQLite3;
 
 class SetupListener {
 

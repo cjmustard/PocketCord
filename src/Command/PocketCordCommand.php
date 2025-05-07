@@ -1,9 +1,9 @@
 <?php
 
-namespace CJMustard1452\PocketCord\Command;
+namespace zyloxdeveloper\pocketcord\command;
 
-use CJMustard1452\PocketCord\Forms\PocketCordForm;
-use CJMustard1452\PocketCord\Loader;
+use zyloxdeveloper\pocketcord\forms\PocketCordForm;
+use zyloxdeveloper\pocketcord\Loader;
 use pocketmine\command\Command;
 use pocketmine\player\Player;
 use pocketmine\command\CommandSender;

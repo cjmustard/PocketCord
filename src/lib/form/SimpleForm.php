@@ -2,11 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CJMustard1452\PocketCord\Library\FormAPI;
+namespace zyloxdeveloper\pocketcord\lib\form;
 
 use pocketmine\form\FormValidationException;
-
-## https://github.com/jojoe77777/FormAPI
 
 class SimpleForm extends Form {
 

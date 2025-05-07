@@ -1,9 +1,9 @@
 <?php
 
-namespace CJMustard1452\PocketCord\Tasks;
+namespace zyloxdeveloper\pocketcord\tasks;
 
-use CJMustard1452\PocketCord\Webhook\WebhookAPI;
-use CJMustard1452\PocketCord\Loader;
+use zyloxdeveloper\pocketcord\webhook\WebhookAPI;
+use zyloxdeveloper\pocketcord\Loader;
 use pocketmine\scheduler\Task;
 
 class WebhookHeartbeat extends Task {

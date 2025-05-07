@@ -1,6 +1,6 @@
 <?php
 
-namespace CJMustard1452\PocketCord\Webhook;
+namespace zyloxdeveloper\pocketcord\webhook;
 
 class Webhook {
 

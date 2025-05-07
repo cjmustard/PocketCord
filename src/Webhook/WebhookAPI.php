@@ -1,9 +1,9 @@
 <?php
 
-namespace CJMustard1452\PocketCord\Webhook;
+namespace zyloxdeveloper\pocketcord\webhook;
 
-use CJMustard1452\PocketCord\Database\WebhookQueries;
-use CJMustard1452\PocketCord\Discord\DiscordAPI;
+use zyloxdeveloper\pocketcord\Database\WebhookQueries;
+use zyloxdeveloper\pocketcord\Discord\DiscordAPI;
 
 class WebhookAPI {
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace CJMustard1452\PocketCord\Forms;
+namespace zyloxdeveloper\pocketcord\forms;
 
-use CJMustard1452\PocketCord\Webhook\WebhookAPI;
-use CJMustard1452\PocketCord\Library\FormAPI\BaseForm;
-use CJMustard1452\PocketCord\Library\FormAPI\CustomForm;
-use CJMustard1452\PocketCord\Listener\SetupListener;
+use zyloxdeveloper\pocketcord\webhook\WebhookAPI;
+use zyloxdeveloper\pocketcord\lib\form\BaseForm;
+use zyloxdeveloper\pocketcord\lib\form\CustomForm;
+use zyloxdeveloper\pocketcord\listener\SetupListener;
 
 class ManageWebhookForm extends BaseForm {
 

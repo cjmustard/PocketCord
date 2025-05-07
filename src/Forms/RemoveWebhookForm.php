@@ -1,10 +1,10 @@
 <?php
 
-namespace CJMustard1452\PocketCord\Forms;
+namespace zyloxdeveloper\pocketcord\forms;
 
-use CJMustard1452\PocketCord\Library\FormAPI\BaseForm;
-use CJMustard1452\PocketCord\Library\FormAPI\SimpleForm;
-use CJMustard1452\PocketCord\Webhook\WebhookAPI;
+use zyloxdeveloper\pocketcord\lib\form\BaseForm;
+use zyloxdeveloper\pocketcord\lib\form\SimpleForm;
+use zyloxdeveloper\pocketcord\webhook\WebhookAPI;
 
 class RemoveWebhookForm extends BaseForm {
 

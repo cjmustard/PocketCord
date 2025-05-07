@@ -1,9 +1,9 @@
 ---
 name: PocketCord
 version: 1.0.1
-main: CJMustard1452\PocketCord\Loader
+main: zyloxdeveloper\pocketcord\Loader
 api: 5.0.0
-src-namespace-prefix: CJMustard1452\PocketCord
+src-namespace-prefix: zyloxdeveloper\pocketcord
 
 permissions:
   pocketcord.cmd:
